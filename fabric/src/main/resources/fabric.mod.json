@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "killthemall",
+  "version": "${version}",
+
+  "name": "KillThemAll",
+  "description": "a mod",
+  "authors": [],
+  "contact": {},
+
+  "license": "Mozilla Public License 2.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.metacontent.killthemall.fabric.KillThemAllFabric"
+    ]
+  },
+  "mixins": [
+    "killthemall.mixins.json",
+    "killthemall-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.20.1"
+  }
+}
