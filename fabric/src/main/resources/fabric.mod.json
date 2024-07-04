@@ -4,8 +4,10 @@
   "version": "${version}",
 
   "name": "KillThemAll",
-  "description": "a mod",
-  "authors": [],
+  "description": "A side mod for Cobblemon that allows you to customize pokemon despawning",
+  "authors": [
+    "gatekeep"
+  ],
   "contact": {},
 
   "license": "Mozilla Public License 2.0",

@@ -42,7 +42,7 @@ authors="gatekeep" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-a mod
+A side mod for Cobblemon that allows you to customize pokemon despawning
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.killthemall]] #optional
