@@ -3,7 +3,6 @@ package com.metacontent.killthemall.config;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.metacontent.killthemall.KillThemAll;
-import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.File;
 import java.io.FileReader;
@@ -37,7 +36,7 @@ public class KTAConfig {
         KillThemAll.LOGGER.info("Initializing " + KillThemAll.ID + " config");
         KTAConfig config;
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-        File file = new File(FabricLoader.getInstance().getConfigDir() + KillThemAll.CONFIG_PATH);
+        File file = new File(KillThemAll.CONFIG_PATH);
         file.getParentFile().mkdirs();
         if (file.exists()) {
             try (FileReader fileReader = new FileReader(file)) {
